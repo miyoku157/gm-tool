@@ -9,61 +9,46 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WMPLib;
 
-
 namespace EssaiGMTools
 {
     public partial class Interface : Form
     {
         private Musique[] playlist = new Musique[6];
+        private Dictionary<string, Button> DicoButton = new Dictionary<string, Button>();
+        public MenuConfig config;
 
         public Interface()
         {
             InitializeComponent();
+            DicoButton.Add("button1", button1);
+            DicoButton.Add("button2", button2);
+            DicoButton.Add("button3", button3);
+            DicoButton.Add("button4", button4);
+            DicoButton.Add("button5", button5);
+            DicoButton.Add("button6", button6);
         }
 
         private void buttonConfig_Click(object sender, EventArgs e)
         {
-            MenuConfig config = new MenuConfig();
+            config = new MenuConfig();
             config.Show();
+        }
+
+        public void retourConfig(string[,] tab)
+        {
+            config.Close();
+            string nomButton = "";
             for (int i = 0; i < 6; i++)
             {
                 if (playlist[i] != null)
                 {
                     playlist[i].StopFile();
-                }
-                switch (i)
-                {
-                    case 0:
-                        playlist[i] = new Musique("Archangel", "C:/Users/Léo/Music/TSFH/Archangel/02 Archangel.mp3");
-                        button1.Text = playlist[i].getNom();
-                        button1.Refresh();
-                        break;
-                    case 1:
-                        playlist[i] = new Musique("Norwegian Pirate", "C:/Users/Léo/Music/TSFH/Archangel/13 Norwegian Pirate.mp3");
-                        button2.Text = playlist[i].getNom();
-                        button2.Refresh();
-                        break;
-                    case 2:
-                        playlist[i] = new Musique("Nero", "C:/Users/Léo/Music/TSFH/Archangel/07 Nero.mp3");
-                        button3.Text = playlist[i].getNom();
-                        button3.Refresh();
-                        break;
-                    case 3:
-                        playlist[i] = new Musique("Strength of a Thousand Men", "C:/Users/Léo/Music/TSFH/Archangel/10 Strength of a Thousand Men.mp3");
-                        button4.Text = playlist[i].getNom();
-                        button4.Refresh();
-                        break;
-                    case 4:
-                        playlist[i] = new Musique("He Who Brings the Night", "C:/Users/Léo/Music/TSFH/Archangel/21 He Who Brings the Night.mp3");
-                        button5.Text = playlist[i].getNom();
-                        button5.Refresh();
-                        break;
-                    case 5:
-                        playlist[i] = new Musique("United We Stand - Divided We Fall", "C:/Users/Léo/Music/TSFH/Archangel/04 United We Stand - Divided We Fall.mp3");
-                        button6.Text = playlist[i].getNom();
-                        button6.Refresh();
-                        break;
-                }
+                }                
+
+                nomButton = "button" + (i + 1);
+                playlist[i] = new Musique(tab[0, i], tab[1, i]);
+                DicoButton[nomButton].Text = playlist[i].getNom();
+                DicoButton[nomButton].Refresh();
             }
         }
 
