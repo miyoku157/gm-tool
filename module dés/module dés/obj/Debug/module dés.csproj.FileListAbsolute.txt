@@ -1,0 +1,9 @@
+c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\bin\Debug\module dés.exe.config
+c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\obj\Debug\module dés.csprojResolveAssemblyReference.cache
+c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\obj\Debug\module_dés.Form1.resources
+c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\obj\Debug\module_dés.Properties.Resources.resources
+c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\obj\Debug\module dés.csproj.GenerateResource.Cache
+c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\bin\Debug\module dés.exe
+c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\bin\Debug\module dés.pdb
+c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\obj\Debug\module dés.exe
+c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\obj\Debug\module dés.pdb
