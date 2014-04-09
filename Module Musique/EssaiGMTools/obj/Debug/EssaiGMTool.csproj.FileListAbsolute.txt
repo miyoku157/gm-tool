@@ -1,0 +1,32 @@
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\bin\Debug\EssaiGMTools.exe.config
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\Interop.MediaPlayer.dll
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\Interop.WMLSS.dll
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\Interop.WMPDXMLib.dll
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\Interop.WMPLauncher.dll
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\Interop.WMPLib.dll
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTool.csproj.ResolveComReference.cache
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\bin\Debug\EssaiGMTools.exe
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\bin\Debug\EssaiGMTools.pdb
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTool.csprojResolveAssemblyReference.cache
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.Interface.resources
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.MenuConfig.resources
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.Properties.Resources.resources
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTool.csproj.GenerateResource.Cache
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.exe
+D:\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.pdb
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\bin\Debug\EssaiGMTools.exe.config
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\Interop.MediaPlayer.dll
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\Interop.WMLSS.dll
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\Interop.WMPDXMLib.dll
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\Interop.WMPLauncher.dll
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\Interop.WMPLib.dll
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTool.csproj.ResolveComReference.cache
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.exe
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.pdb
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\bin\Debug\EssaiGMTools.exe
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\bin\Debug\EssaiGMTools.pdb
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTool.csprojResolveAssemblyReference.cache
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.Interface.resources
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.MenuConfig.resources
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.Properties.Resources.resources
+D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTool.csproj.GenerateResource.Cache
