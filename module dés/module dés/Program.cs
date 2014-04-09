@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GMTool;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace module_dés
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Module_des());
+            Application.Run(new MainForm());
         }
     }
 }

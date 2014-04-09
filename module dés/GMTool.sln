@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "module dés", "module dés\module dés.csproj", "{FE0460A3-25AF-4E99-AD04-9CF7214D2B14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMTool", "module dés\GMTool.csproj", "{FE0460A3-25AF-4E99-AD04-9CF7214D2B14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,3 +7,25 @@ c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés
 c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\bin\Debug\module dés.pdb
 c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\obj\Debug\module dés.exe
 c:\users\sebastien\documents\visual studio 2012\Projects\module dés\module dés\obj\Debug\module dés.pdb
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\bin\Debug\module dés.exe.config
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\module dés.exe
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\module dés.pdb
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\module dés.csprojResolveAssemblyReference.cache
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\Interop.WMPLib.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\module dés.csproj.ResolveComReference.cache
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\GMTool.MainForm.resources
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\module_dés.Module_des.resources
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\Catalogue_de_fiches_de_perso.PJs.resources
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\module_dés.Properties.Resources.resources
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\module dés.csproj.GenerateResource.Cache
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\EssaiGMTools.MenuConfig.resources
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\obj\Debug\EssaiGMTools.Interface.resources
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\bin\Debug\module dés.exe
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\bin\Debug\module dés.pdb
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\bin\Debug\Interop.WMPLib.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\module dés\module dés\bin\Debug\AxInterop.WMPLib.dll

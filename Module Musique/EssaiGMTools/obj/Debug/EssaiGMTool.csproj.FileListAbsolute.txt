@@ -30,3 +30,12 @@ D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools
 D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.MenuConfig.resources
 D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTools.Properties.Resources.resources
 D:\Projets SVN\Projet gm-tool\ModuleMusiques\EssaiGMTools\obj\Debug\EssaiGMTool.csproj.GenerateResource.Cache
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\Module Musique\EssaiGMTools\bin\Debug\EssaiGMTools.exe.config
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\Module Musique\EssaiGMTools\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\Module Musique\EssaiGMTools\obj\Debug\Interop.WMLSS.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\Module Musique\EssaiGMTools\obj\Debug\Interop.WMPDXMLib.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\Module Musique\EssaiGMTools\obj\Debug\Interop.WMPLauncher.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\Module Musique\EssaiGMTools\obj\Debug\Interop.WMPLib.dll
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\Module Musique\EssaiGMTools\obj\Debug\EssaiGMTool.csproj.ResolveComReference.cache
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\Module Musique\EssaiGMTools\obj\Debug\EssaiGMTools.exe
+C:\Users\Gautier\Dropbox\Perso\Projet gm tool\SVN\Module Musique\EssaiGMTools\obj\Debug\EssaiGMTools.pdb
