@@ -1,0 +1,9 @@
+c:\users\léo\documents\visual studio 2012\Projects\Gestionnaire de PNJs\Gestionnaire de PNJs\bin\Debug\Gestionnaire de PNJs.exe.config
+C:\Users\Léo\Documents\Visual Studio 2012\Projects\Gestionnaire de PNJs\Gestionnaire de PNJs\bin\Debug\Gestionnaire de PNJs.exe
+C:\Users\Léo\Documents\Visual Studio 2012\Projects\Gestionnaire de PNJs\Gestionnaire de PNJs\bin\Debug\Gestionnaire de PNJs.pdb
+C:\Users\Léo\Documents\Visual Studio 2012\Projects\Gestionnaire de PNJs\Gestionnaire de PNJs\obj\Debug\Gestionnaire de PNJs.csprojResolveAssemblyReference.cache
+C:\Users\Léo\Documents\Visual Studio 2012\Projects\Gestionnaire de PNJs\Gestionnaire de PNJs\obj\Debug\Gestionnaire_de_PNJs.PNJs.resources
+C:\Users\Léo\Documents\Visual Studio 2012\Projects\Gestionnaire de PNJs\Gestionnaire de PNJs\obj\Debug\Gestionnaire_de_PNJs.Properties.Resources.resources
+C:\Users\Léo\Documents\Visual Studio 2012\Projects\Gestionnaire de PNJs\Gestionnaire de PNJs\obj\Debug\Gestionnaire de PNJs.csproj.GenerateResource.Cache
+C:\Users\Léo\Documents\Visual Studio 2012\Projects\Gestionnaire de PNJs\Gestionnaire de PNJs\obj\Debug\Gestionnaire de PNJs.exe
+C:\Users\Léo\Documents\Visual Studio 2012\Projects\Gestionnaire de PNJs\Gestionnaire de PNJs\obj\Debug\Gestionnaire de PNJs.pdb
