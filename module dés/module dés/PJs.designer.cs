@@ -1,4 +1,4 @@
-﻿namespace Catalogue_de_fiches_de_perso
+﻿namespace GMTool
 {
     partial class PJs
     {

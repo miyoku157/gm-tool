@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Catalogue_de_fiches_de_perso
+namespace GMTool
 {
     public partial class PJs : Form
     {

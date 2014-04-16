@@ -1,4 +1,4 @@
-﻿namespace EssaiGMTools
+﻿namespace GMTool
 {
     partial class MenuConfig
     {

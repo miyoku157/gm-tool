@@ -16,5 +16,13 @@ namespace GMTool
         {
             InitializeComponent();
         }
+
+        private void btnMusique_Click(object sender, EventArgs e)
+        {
+            Interface form = new Interface();
+            form.Owner = this;
+            form.Show();
+
+        }
     }
 }

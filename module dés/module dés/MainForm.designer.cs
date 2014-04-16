@@ -31,7 +31,9 @@
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabJoueur = new System.Windows.Forms.TabPage();
             this.tabMJ = new System.Windows.Forms.TabPage();
+            this.btnMusique = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
+            this.tabMJ.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -56,6 +58,7 @@
             // 
             // tabMJ
             // 
+            this.tabMJ.Controls.Add(this.btnMusique);
             this.tabMJ.Location = new System.Drawing.Point(4, 22);
             this.tabMJ.Name = "tabMJ";
             this.tabMJ.Padding = new System.Windows.Forms.Padding(3);
@@ -63,6 +66,16 @@
             this.tabMJ.TabIndex = 1;
             this.tabMJ.Text = "Maître de jeu";
             this.tabMJ.UseVisualStyleBackColor = true;
+            // 
+            // btnMusique
+            // 
+            this.btnMusique.Location = new System.Drawing.Point(6, 6);
+            this.btnMusique.Name = "btnMusique";
+            this.btnMusique.Size = new System.Drawing.Size(98, 34);
+            this.btnMusique.TabIndex = 0;
+            this.btnMusique.Text = "Musique";
+            this.btnMusique.UseVisualStyleBackColor = true;
+            this.btnMusique.Click += new System.EventHandler(this.btnMusique_Click);
             // 
             // MainForm
             // 
@@ -73,6 +86,7 @@
             this.Name = "MainForm";
             this.Text = "Page d\'acceuil";
             this.tabControl.ResumeLayout(false);
+            this.tabMJ.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -82,6 +96,7 @@
         private System.Windows.Forms.TabControl tabControl;
         private System.Windows.Forms.TabPage tabJoueur;
         private System.Windows.Forms.TabPage tabMJ;
+        private System.Windows.Forms.Button btnMusique;
     }
 }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WMPLib;
 
-namespace EssaiGMTools
+namespace GMTool
 {
     public class Musique
     {
