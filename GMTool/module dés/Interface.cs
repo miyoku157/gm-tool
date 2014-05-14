@@ -18,10 +18,12 @@ namespace GMTool
         private Dictionary<string, Button> DicoButton = new Dictionary<string, Button>();
         private bool configSuper;
         private MenuConfig config;
+        private MainForm m_main;
 
-        public Interface()
+        public Interface(MainForm main)
         {
             InitializeComponent();
+            this.m_main = main;
             playing = new Musique("", "", false);
             DicoButton.Add("button1", button1);
             DicoButton.Add("button2", button2);
@@ -33,8 +35,7 @@ namespace GMTool
 
         private void buttonConfig_Click(object sender, EventArgs e)
         {
-            config = new MenuConfig(playlist, configSuper);
-            config.Show();
+            m_main.setCurrentWindow("MenuConfig", playlist, configSuper);
         }
 
         public void retourConfig(string[,] tabMusique, bool[] tabRepet, bool super)

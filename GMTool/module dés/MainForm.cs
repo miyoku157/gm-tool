@@ -15,6 +15,7 @@ namespace GMTool
         Interface formInterface;
         Module_des formModuleDes;
         PJs formPjs;
+        MenuConfig formConfig;
         public MainForm()
         {
             InitializeComponent();
@@ -24,7 +25,7 @@ namespace GMTool
         {
             if (formInterface == null)
             {
-                formInterface = new Interface();
+                formInterface = new Interface(this);
                 formInterface.TopLevel = false;
                 this.Controls.Add(formInterface);
                 formInterface.Show();
@@ -65,6 +66,24 @@ namespace GMTool
             else
             {
                 formPjs.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        internal void setCurrentWindow(string p, Musique[] playlist, bool configSuper)
+        {
+            if (formConfig == null)
+            {
+                this.formInterface.Close();
+                this.formInterface = null;
+                formConfig = new MenuConfig(playlist, configSuper);
+                formConfig.TopLevel = false;
+                this.Controls.Add(formConfig);
+                formConfig.Show();
+                formConfig.BringToFront();
+            }
+            else
+            {
+                formConfig.WindowState = FormWindowState.Normal;
             }
         }
     }
