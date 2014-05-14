@@ -104,6 +104,11 @@ namespace GMTool
             }
         }
 
+        public void sauvegarde()
+        {
+
+        }
+
         private void Parcourir_1_Click(object sender, EventArgs e)
         {
             if (dialogMusic.ShowDialog() == DialogResult.OK)
@@ -183,37 +188,31 @@ namespace GMTool
             if(checkBoxSuper.Checked)configSuper = true;
             else configSuper = false;
         }
-
         private void checkBoxLoop1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxLoop1.Checked) tabRepet[0] = true;
             else tabRepet[0] = false;
         }
-
         private void checkBoxLoop2_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxLoop2.Checked) tabRepet[1] = true;
             else tabRepet[1] = false;
         }
-
         private void checkBoxLoop3_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxLoop3.Checked) tabRepet[2] = true;
             else tabRepet[2] = false;
         }
-
         private void checkBoxLoop4_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxLoop4.Checked) tabRepet[3] = true;
             else tabRepet[3] = false;
         }
-
         private void checkBoxLoop5_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxLoop5.Checked) tabRepet[4] = true;
             else tabRepet[4] = false;
         }
-
         private void checkBoxLoop6_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxLoop6.Checked) tabRepet[5] = true;
