@@ -1,4 +1,4 @@
-﻿namespace module_dés
+﻿namespace GMTool
 {
     partial class Module_des
     {

@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace module_dés
+namespace GMTool
 {
     public partial class Module_des : Form
     {
