@@ -35,7 +35,7 @@
             // 
             // btnMusique
             // 
-            this.btnMusique.Location = new System.Drawing.Point(12, 12);
+            this.btnMusique.Location = new System.Drawing.Point(17, 12);
             this.btnMusique.Name = "btnMusique";
             this.btnMusique.Size = new System.Drawing.Size(98, 34);
             this.btnMusique.TabIndex = 1;
@@ -45,7 +45,7 @@
             // 
             // btnDes
             // 
-            this.btnDes.Location = new System.Drawing.Point(116, 12);
+            this.btnDes.Location = new System.Drawing.Point(121, 12);
             this.btnDes.Name = "btnDes";
             this.btnDes.Size = new System.Drawing.Size(98, 34);
             this.btnDes.TabIndex = 2;
@@ -55,7 +55,7 @@
             // 
             // btnPJs
             // 
-            this.btnPJs.Location = new System.Drawing.Point(220, 12);
+            this.btnPJs.Location = new System.Drawing.Point(225, 12);
             this.btnPJs.Name = "btnPJs";
             this.btnPJs.Size = new System.Drawing.Size(98, 34);
             this.btnPJs.TabIndex = 3;
@@ -72,7 +72,7 @@
             this.Controls.Add(this.btnDes);
             this.Controls.Add(this.btnMusique);
             this.Name = "MainForm";
-            this.Text = "Page d\'acceuil";
+            this.Text = "GMTool";
             this.ResumeLayout(false);
 
         }
