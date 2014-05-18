@@ -44,6 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Campagne.cs" />
+    <Compile Include="PNJ.cs" />
+    <Compile Include="PNJcreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PNJcreator.Designer.cs">
+      <DependentUpon>PNJcreator.cs</DependentUpon>
+    </Compile>
     <Compile Include="PNJs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PNJcreator.resx">
+      <DependentUpon>PNJcreator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PNJs.resx">
       <DependentUpon>PNJs.cs</DependentUpon>
     </EmbeddedResource>
