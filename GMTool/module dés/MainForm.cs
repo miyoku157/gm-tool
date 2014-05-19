@@ -16,6 +16,8 @@ namespace GMTool
         Module_des formModuleDes;
         PJs formPjs;
         MenuConfig formConfig;
+        Module_pv formPV;
+        
         public MainForm()
         {
             InitializeComponent();
@@ -84,6 +86,22 @@ namespace GMTool
             else
             {
                 formConfig.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void btGestionPV_Click(object sender, EventArgs e)
+        {
+            if (formPV == null)
+            {
+                formPV = new Module_pv();
+                formPV.TopLevel = false;
+                this.Controls.Add(formPV);
+                formPV.Show();
+                formPV.BringToFront();
+            }
+            else
+            {
+                formPV.WindowState = FormWindowState.Normal;
             }
         }
     }

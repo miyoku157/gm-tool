@@ -44,6 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlePVcs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlePVcs.Designer.cs" />
     <Compile Include="Interface.cs">
       <SubType>Form</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -74,6 +78,10 @@
       <DependentUpon>Module_Des.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="Module_PV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module_PV.Designer.cs" />
     <Compile Include="Musique.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
@@ -89,6 +97,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ControlePVcs.resx" />
     <EmbeddedResource Include="Interface.resx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -103,6 +112,7 @@
       <DependentUpon>Module_Des.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Module_PV.resx" />
     <EmbeddedResource Include="PJs.resx">
       <DependentUpon>PJs.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

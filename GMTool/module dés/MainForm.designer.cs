@@ -31,6 +31,7 @@
             this.btnMusique = new System.Windows.Forms.Button();
             this.btnDes = new System.Windows.Forms.Button();
             this.btnPJs = new System.Windows.Forms.Button();
+            this.btGestionPV = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMusique
@@ -63,11 +64,22 @@
             this.btnPJs.UseVisualStyleBackColor = true;
             this.btnPJs.Click += new System.EventHandler(this.btnPJs_Click);
             // 
+            // btGestionPV
+            // 
+            this.btGestionPV.Location = new System.Drawing.Point(329, 12);
+            this.btGestionPV.Name = "btGestionPV";
+            this.btGestionPV.Size = new System.Drawing.Size(98, 34);
+            this.btGestionPV.TabIndex = 4;
+            this.btGestionPV.Text = "Gestion de PV";
+            this.btGestionPV.UseVisualStyleBackColor = true;
+            this.btGestionPV.Click += new System.EventHandler(this.btGestionPV_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 761);
+            this.Controls.Add(this.btGestionPV);
             this.Controls.Add(this.btnPJs);
             this.Controls.Add(this.btnDes);
             this.Controls.Add(this.btnMusique);
@@ -82,6 +94,7 @@
         private System.Windows.Forms.Button btnMusique;
         private System.Windows.Forms.Button btnDes;
         private System.Windows.Forms.Button btnPJs;
+        private System.Windows.Forms.Button btGestionPV;
 
     }
 }
