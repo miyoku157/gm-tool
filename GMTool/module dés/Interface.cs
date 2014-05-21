@@ -40,7 +40,6 @@ namespace GMTool
 
         public void retourConfig(string[,] tabMusique, bool[] tabRepet, bool super)
         {
-            config.Close();
             configSuper = super;
             string nomButton = "";
             for (int i = 0; i < 6; i++)

@@ -18,11 +18,12 @@ namespace GMTool
         private Dictionary<string, TextBox> DicoTextbox = new Dictionary<string, TextBox>();
         private Dictionary<string, CheckBox> DicoCheckBox = new Dictionary<string, CheckBox>();
         private bool configSuper;
+        private MainForm m_main;
 
-        public MenuConfig(Musique[] playlist, bool repet)
+        public MenuConfig(Musique[] playlist, bool repet, MainForm Main)
         {
             InitializeComponent();
-
+            this.m_main = Main;
             if (repet)
             {
                 checkBoxSuper.Checked = true;
@@ -89,7 +90,7 @@ namespace GMTool
                 {
                     if (DicoTextbox[nomTB + (j + 1)].Text == "")
                     {
-                        tabTB[0, j] = "Non seléctionné";
+                        tabTB[0, j] = "Musique non sélectionnée";
                     }
                     else
                     {
@@ -98,10 +99,8 @@ namespace GMTool
                     tabRepet[j] = DicoCheckBox["checkBoxLoop" + (j + 1)].Checked;
                 }
             }
-            if (System.Windows.Forms.Application.OpenForms["Interface"] != null)
-            {
-                (System.Windows.Forms.Application.OpenForms["Interface"] as Interface).retourConfig(tabTB, tabRepet, configSuper);
-            }
+            this.m_main.displayInterface();
+            this.m_main.retourConfig(tabTB, tabRepet, configSuper);
         }
 
         public void sauvegarde()

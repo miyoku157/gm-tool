@@ -77,7 +77,7 @@ namespace GMTool
             {
                 this.formInterface.Close();
                 this.formInterface = null;
-                formConfig = new MenuConfig(playlist, configSuper);
+                formConfig = new MenuConfig(playlist, configSuper, this);
                 formConfig.TopLevel = false;
                 this.Controls.Add(formConfig);
                 formConfig.Show();
@@ -103,6 +103,29 @@ namespace GMTool
             {
                 formPV.WindowState = FormWindowState.Normal;
             }
+        }
+
+        internal void displayInterface()
+        {
+            if (formInterface == null)
+            {
+                this.formConfig.Close();
+                this.formConfig = null;
+                formInterface = new Interface(this);
+                formInterface.TopLevel = false;
+                this.Controls.Add(formInterface);
+                formInterface.Show();
+                formInterface.BringToFront();
+            }
+            else
+            {
+                formInterface.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        internal void retourConfig(string[,] tabTB, bool[] tabRepet, bool configSuper)
+        {
+            this.formInterface.retourConfig(tabTB, tabRepet, configSuper);
         }
     }
 }
