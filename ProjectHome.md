@@ -1,0 +1,1 @@
+A tool designed to help game masters set up and organize their games
