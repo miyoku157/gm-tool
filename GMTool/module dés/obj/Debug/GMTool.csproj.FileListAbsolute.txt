@@ -1,0 +1,6 @@
+F:\Projets GIT\gm-tool\GMTool\module dés\bin\Debug\module dés.exe.config
+F:\Projets GIT\gm-tool\GMTool\module dés\obj\Debug\Interop.AcroPDFLib.dll
+F:\Projets GIT\gm-tool\GMTool\module dés\obj\Debug\Interop.WMPLib.dll
+F:\Projets GIT\gm-tool\GMTool\module dés\obj\Debug\AxInterop.AcroPDFLib.dll
+F:\Projets GIT\gm-tool\GMTool\module dés\obj\Debug\AxInterop.WMPLib.dll
+F:\Projets GIT\gm-tool\GMTool\module dés\obj\Debug\GMTool.csproj.ResolveComReference.cache

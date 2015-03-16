@@ -160,5 +160,3 @@
         private System.Windows.Forms.Button buttonStop;
     }
 }
-
-///je fais des test
